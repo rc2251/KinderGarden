@@ -1,0 +1,360 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container
+{
+	width: 100%;
+	height: 100vh;
+	/*background: red;*/
+	font-family: cursive;
+}
+#header
+{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	display: flex;
+	/*text-align: center;*/
+	line-height: 100px;
+
+}
+.logo
+{
+	flex: 1;
+	/*padding-left: 100px;*/
+	line-height: 100px;
+
+}
+.logo img
+{
+	float: left;
+	width:60px;
+	height: 60px;
+	margin-top: 20px;
+	/*margin: auto;*/
+
+}
+
+.logo a
+{
+	text-decoration: none;
+}
+.logo a h1
+{
+	float: left;
+	font-size: 45px;
+	color: blue
+}
+.navbar
+{
+	flex: 2 ;
+	/*float: left;*/
+}
+.navbar ul li
+{
+	float: left;
+	list-style-type: none;
+	padding-left: 30px;
+	/*text-decoration: none;*/
+	font-size: 20PX;
+	
+}
+.navbar ul li a
+{
+	display: hidden;
+	text-decoration: none;
+}
+.drop
+{
+	width: 100px;
+	height: 100px;
+	line-height: 40px;
+	border:2px solid black;
+	display: none;
+	outline: none;
+	border: none;
+
+}
+.navbar ul li:hover>.drop
+{
+	color: black;
+	display: block;
+}
+
+.btn
+{
+	border-radius: 35px;
+	border: none;
+	outline: none;
+	float: right;
+	margin:23px 150px 0px 0px;
+
+}
+.slider
+{
+	width: 100%;
+	height: 600px;
+	/*background: green;*/
+	/*float: left;*/
+}
+.slide1
+{
+	width: 50%;
+	height: 600PX;
+	padding: 200px 100px;
+	background: skyblue;
+	float: left;
+
+}
+.slide2
+{
+	width: 50%;
+	height: 600PX;
+	float: left;
+	background: skyblue;
+}
+.slide2 img
+{
+	width: 100%;
+	height: 550px;
+	padding-top: 50px;
+	/*background: blue;*/
+}
+
+.card6
+{
+	width: 100%;
+	height: 400px;
+	float: left;
+	/*background: red;*/
+	margin-top: 100PX;
+}
+
+.cards
+{
+	width: 30%;
+	height: 170px;
+	float: left;
+	/*background: green;*/
+	margin:20px ;
+	border-top: 1PX SOLID skyblue;
+}
+.c31
+{
+	width: 48%;
+	height: 600px;
+	/*background: pink; */
+	float: left;
+}
+.c31 img
+{
+	width: 450px;
+	height: 550px;
+	border-radius: 20px;
+	margin-left: 150px;
+}
+.c32
+{
+	width: 52%;
+	height: 600px;
+	float: left;
+	padding-top: 80px;
+	padding-right: 100px;
+	/*background: greenyellow;*/
+}
+.about2
+{
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+.about2 img
+{
+ border-radius: 20px;
+ float: left;
+}
+.about2 table
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	/*margin: 50px;*/
+	border-right: none;
+}
+.about2 table tr td
+{
+	border: 1px solid black;
+	padding: 6px;
+	float: left;
+	border-right: none;
+}
+button
+{
+	margin-top: 40px;
+	padding: 15px;
+	background: blue;
+	border-radius: 35px;
+	outline: none;
+	border: none;
+}
+.kidsubject
+{
+	width: 100%;
+	height: 100px;
+	/*background:green;*/
+	text-align: center; 
+	margin-top:50px;
+	float: left;
+}
+.main
+{
+	float: left;
+	padding: 0px 5% 0px 7%;
+	/*background: green;*/
+}
+
+.subject
+{
+	width: 26%;
+	height: 600px;
+	float: left;
+	/*background: red;*/
+	text-align: center;
+	margin: 3%;
+	justify-content: center;
+
+}
+
+ .subject table
+{
+	border-collapse: collapse;
+	justify-content: center;
+	font-size: 20px;
+	border: none;
+	/*outline: none;*/
+}
+.subject table td
+{
+	border: 1px solid black;
+}
+.subject button
+{
+	padding: 15px;
+	border-radius: 20px;
+	margin-top: 40px;
+	background: skyblue;
+}
+.bookseat1
+{
+	width: 60%;
+	height: 400px;
+	float: left;
+	padding-left: 100px;
+}
+.bookseat1 h4
+{
+	padding-bottom: 15px;
+}
+.bookseat2
+{
+	width: 40%;
+	height: 450px;
+	float: left;
+	/*background: green;*/
+	/*margin-left: 50px;*/
+}
+.bookhead
+{
+	width: 440px;
+	height: 80px;
+	background: blue;
+	text-align: center;
+	padding-top: 20px;
+}
+.booking
+{
+	width: 440px;
+	height: 350px;
+	background: skyblue;
+	padding-left: 20px;
+}
+.booking input
+{
+	width: 370px;
+	height: 45px;
+	text-align: center;
+	margin: 15px;
+	/*margin-top: 20px;*/
+
+}
+.booking button
+{
+	width: 370px;
+	height: 45px;
+	margin: 20px;
+
+}
+.teacherheader
+{
+width: 100%;
+height: 450px;
+text-align: center;
+float: left;
+background: skyblue;
+/*padding: 50px 50px;*/ 
+}
+.teacher
+{
+	width: 100%;
+	height: 320px;
+	margin: AUTO;
+	/*justify-content: center;*/
+	background: blue;
+	float: left;
+
+}
+.teach
+{
+	width: 23%;
+	height: 320px;
+	float: left;
+	margin: 1%;
+	position: relative;
+	
+}
+.teach img
+{
+	border-radius: 50%;
+	float: left;
+}
+.teachd
+{
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin: 5px;
+	border-radius: 50%;
+	position: absolute;
+	background:rgba(0,0,0,0.4);
+	display: none;
+}
+.teachd a
+{
+	padding: 10px;
+	border-radius: 50%;
+	justify-content: center;
+	line-height: 300px;
+}
+.teachd a:hover
+{
+ border: 1px solid gray;
+ background: gray;
+ color: skyblue;
+
+}
+.teach img:hover>.teachd
+{
+ top: 0px;
+}
